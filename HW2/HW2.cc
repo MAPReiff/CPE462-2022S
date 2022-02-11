@@ -10,7 +10,7 @@ using namespace cv;
 
 int main(int argc, char **argv) {
 
-   Mat image = imread("./assets/vivy10.png");
+   Mat image = imread("./assets/stevens.png");
 
    if (image.empty()) {
 	  cout << "Could not open or find the image" << endl;
