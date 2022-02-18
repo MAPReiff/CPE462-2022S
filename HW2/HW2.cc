@@ -1,4 +1,4 @@
-// I plege my honor that I have abided by the Stevens Honor System.
+// I pledge my honor that I have abided by the Stevens Honor System.
 // Based on https://docs.opencv.org/4.x/db/deb/tutorial_display_image.html
 // and https://www.opencv-srf.com/2017/11/load-and-display-image.html
 
