@@ -1,0 +1,3 @@
+[submodule "TrafficSystem"]
+	path = TrafficSystem
+	url = git@github.com:MAPReiff/CPE462-TrafficSystem.git
