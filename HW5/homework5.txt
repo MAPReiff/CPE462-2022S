@@ -1,0 +1,25 @@
+diary homework5.txt 
+diary on
+
+IMG=readjpg('myImage.jpg');
+size(IMG);
+
+x = 3000;
+y = 4000;
+
+r=zeros(x,y); g=zeros(x,y); b=zeros(x,y);   % initialization
+r=IMG(:,:,1); g=IMG(:,:,2); b=IMG(:,:,3);
+
+rn = r*0.299;
+gn = g*0.587;
+bn = b*0.114;
+Y = rn + gn + bn;
+
+dispimg(Y) 
+diary off
+
+[Warning: Image is too big to fit on screen; displaying at 32% scale.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('truesize>Resize2', '/usr/local/MATLAB/R2020b/toolbox/images/imuitools/truesize.m', 312)" style="font-weight:bold">truesize>Resize2</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2020b/toolbox/images/imuitools/truesize.m',312,0)">line 312</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('truesize', '/usr/local/MATLAB/R2020b/toolbox/images/imuitools/truesize.m', 58)" style="font-weight:bold">truesize</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2020b/toolbox/images/imuitools/truesize.m',58,0)">line 58</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dispimg', '/home/mreiff/Documents/CPE462-2022S/HW5/dispimg.m', 5)" style="font-weight:bold">dispimg</a> (<a href="matlab: opentoline('/home/mreiff/Documents/CPE462-2022S/HW5/dispimg.m',5,0)">line 5</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hw5', '/home/mreiff/Documents/CPE462-2022S/HW5/hw5.m', 18)" style="font-weight:bold">hw5</a> (<a href="matlab: opentoline('/home/mreiff/Documents/CPE462-2022S/HW5/hw5.m',18,0)">line 18</a>)] 
